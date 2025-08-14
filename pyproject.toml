@@ -1,7 +1,9 @@
 [project] 
-name = "example-pyproject"
+name = "mygeopy1""
 version = "0.1.0"
 # Explain the focus and goal of this project succinctly
 description = "Example packaging project"
+authors = [{name = "Hana Frluckaj", email="hanafrla@domain.com"}]
+
 # Readme file from the project shipped in the package
 readme = "README.md"
