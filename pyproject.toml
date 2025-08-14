@@ -1,0 +1,7 @@
+[project] 
+name = "example-pyproject"
+version = "0.1.0"
+# Explain the focus and goal of this project succinctly
+description = "Example packaging project"
+# Readme file from the project shipped in the package
+readme = "README.md"
