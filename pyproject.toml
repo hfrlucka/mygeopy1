@@ -1,9 +1,24 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools"]
+
+
 [project] 
-name = "mygeopy1""
+name = "mygeopy1"
 version = "0.1.0"
 # Explain the focus and goal of this project succinctly
 description = "Example packaging project"
 authors = [{name = "Hana Frluckaj", email="hanafrla@domain.com"}]
+license = "MIT"
+
+[project.urls]
+Homepage = "mygeopy1"
+
+[project.optinal-dependencies]
+tests = ["pytest"]
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules"
 
 # Readme file from the project shipped in the package
 readme = "README.md"
